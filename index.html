@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Stand</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <canvas id="canvas" height="500" width="700"></canvas>
+    <div id="buttonContainer">
+        <button id="pauseBtn" aria-label="pause"><img src="./media/pause.png" alt="pause"></button>
+        <button id="leaderBoardBtn" aria-label="leaderboard"><img src="./media/list.png" alt="leaderboard"></button>
+    </div>
+
+    <div id="gameOverContainer">
+        <h1>GAME OVER</h1>
+        <button id="restartBtn" aria-label="restart">Restart</button>
+        <div id="score">Score: -</div>
+    </div>
+
+    <div id="leaderBoardContainer">
+        <h1>LEADER BOARD</h1>
+        <pre></pre>
+        <button id="playBtn">Play</button>
+    </div>
+
+    <div id="materialsContainer">
+        <div id="countDown">Time Left: </div>
+        <div id="metalBox"><img src="./media/metal_box.png" alt="metalbox"></div>
+        <div id="cannon"><img src="./media/cannon.png" alt="cannon"></div>
+        <div id="trap"><img src="./media/trap_img.png" alt="trap"></div>
+        <button id="startBtn">Start</button>
+    </div>
+
+    <div id="darkDiv"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
