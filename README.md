@@ -1,69 +1,69 @@
-**Last Dance**
+# Last Stand
+
 A 2D side-scrolling zombie defense game where you build fortifications and fight off waves of zombies.
-Game Overview
+
+## Game Overview
+
 In this game, you play as a survivor defending against hordes of zombies. The game is divided into two phases:
 
-Preparation Phase: Build your defenses using various materials.
-Battle Phase: Fight off waves of zombies using your fortifications and weapons.
+1. Preparation Phase: Build your defenses using various materials.
+2. Battle Phase: Fight off waves of zombies using your fortifications and weapons.
 
-**Controls**
+## Controls
 
-Left Arrow / A: Move left
-Right Arrow / D: Move right
-Space / Up Arrow / W: Jump / Activate jetpack
-Mouse Click: Shoot (during battle phase) / Place objects (during preparation phase)
-Mouse Wheel: Adjust shooting angle
+- **Left Arrow / A**: Move left
+- **Right Arrow / D**: Move right
+- **Space / Up Arrow / W**: Jump / Activate jetpack
+- **Mouse Click**: Shoot (during battle phase) / Place objects (during preparation phase)
+- **Mouse Wheel**: Adjust shooting angle
 
-**Game Mechanics**
-Preparation Phase
+## Game Mechanics
 
-You have 60 seconds to set up your defenses.
-Available materials:
+### Preparation Phase
 
-Metal Boxes: Basic building blocks
-Cannons: Automated defense turrets
-Traps: Floor hazards that damage zombies
+- You have 60 seconds to set up your defenses.
+- Available materials:
+  - Metal Boxes: Basic building blocks
+  - Cannons: Automated defense turrets
+  - Traps: Floor hazards that damage zombies
 
+### Battle Phase
 
+- Defend against waves of zombies.
+- Two types of zombies:
+  - Normal Zombies
+  - Climber Zombies (can jump over obstacles)
 
-Battle Phase
+### Scoring System
 
-Defend against waves of zombies.
-Two types of zombies:
+- Score points for each zombie killed.
+- Try to survive as long as possible to achieve a high score.
 
-Normal Zombies
-Climber Zombies (can jump over obstacles)
+### Power-ups
 
-
-
-**Scoring System**
-
-Score points for each zombie killed.
-Try to survive as long as possible to achieve a high score.
-
-**Power-ups**
 Zombies have a chance to drop power-ups when killed:
 
-Health Power-up: Temporary immunity
-Ammo Power-up: Increased fire rate
+- Health Power-up: Temporary immunity
+- Ammo Power-up: Increased fire rate
 
-**Physics System**
+## Physics System
+
 The game features a custom physics engine that includes:
 
-Gravity
-Collision detection and response
-Velocity-based movement
-Projectile trajectories
+- Gravity
+- Collision detection and response
+- Velocity-based movement
+- Projectile trajectories
 
-**Special Features**
+## Special Features
 
-Jetpack with limited fuel
-Infinite scrolling platform
-Dynamic camera that follows the player
-Leaderboard system (stored locally)
+- Jetpack with limited fuel
+- Infinite scrolling platform
+- Dynamic camera that follows the player
+- Leaderboard system (stored locally)
 
-**Technical Details**
+## Technical Details
 
-Built using HTML5 Canvas and JavaScript
-Sprite-based animations
-Frame-rate independent game loop
+- Built using HTML5 Canvas and JavaScript
+- Sprite-based animations
+- Frame-rate independent game loop
